@@ -44,3 +44,24 @@
     ```bash
         pip install --default-timeout=50 -r /root/InstantID/gradio_demo/requirements.txt
     ```
+
+## 在docker部署InstantID模型
+
+* 下载[InstantID源码](https://github.com/InstantID/InstantID),下载[Huggingface上的模型](https://hf-mirror.com/InstantX/InstantID)并放在源码的checkpoints目录下，下载antelopev2模型(百度网盘https://pan.quark.cn/s/ddcd385cd661
+提取码：cgDt)并放在源码的models目录下。
+
+* 下载[Diffusion基础模型](https://hf-mirror.com/wangqixun/YamerMIX_v8)并放在源码下的的wangqixun/YamerMIX_v8目录中
+
+* 下载[lora模型](https://hf-mirror.com/latent-consistency/lcm-lora-sdxl)并放在源码下的的latent-consistency/lcm-lora-sdxl目录中
+
+* 下载[openpose模型](https://hf-mirror.com/thibaud/controlnet-openpose-sdxl-1.0)并放在源码下的thibaud/controlnet-openpose-sdxl-1.0目录中
+
+* 下载[canny模型](https://hf-mirror.com/diffusers/controlnet-canny-sdxl-1.0)并放在源码下的diffusers/controlnet-canny-sdxl-1.0目录中
+
+* 下载[depth模型](https://hf-mirror.com/diffusers/controlnet-depth-sdxl-1.0-small)并放在源码下的diffusers/controlnet-depth-sdxl-1.0-small目录中
+
+* 下载[hybrid模型](https://hf-mirror.com/Intel/dpt-hybrid-midas)并放在源码下的Intel/dpt-hybrid-midas目录中
+
+* 下载[lllyasviel模型](https://hf-mirror.com/lllyasviel/ControlNet)并放在源码下的lllyasviel/ControlNet目录中
+
+* 下载[Annotators模型](https://hf-mirror.com/lllyasviel/Annotators)并放在源码下的lllyasviel/Annotators目录中
